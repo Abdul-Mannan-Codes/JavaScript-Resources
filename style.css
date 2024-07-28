@@ -69,3 +69,43 @@
         line-height: 40px;
     }
 }
+#services .subtitle{
+    margin-top:-11px;
+    color:var(--primary);
+}
+.ps-5{
+    padding-left:7rem !important;
+}
+.service-img img{
+    width:350px;
+    height:300px;
+    object-fit: cover;
+}
+.service-name{
+    color:var(--primary);
+}
+.service-desc{
+    margin-top:-5px;
+}
+.theory-table{
+    width:100%;
+    th, td{
+        padding:20px;
+    }
+}
+.colhead{
+    color:var(--primary);
+}
+.theory-table{
+    th,td{
+        border:2px solid var(--dark);
+    }
+}
+a{
+    color:var(--primary);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color:var(--primary-hover);
+}
