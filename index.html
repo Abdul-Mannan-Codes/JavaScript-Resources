@@ -8,10 +8,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logicscript.png" type="x/png">
     <title>JavaScript Materials</title>
 </head>
 <body>
+    <header class="d-flex justify-content-between pt-3 px-5">
+            <!-- <img src="images/js-logo2.png" alt="logo" class="logo"> -->
+            <i class="fa-solid fa-code logo"></i>
+            <nav>
+                <ul class="nav-list d-flex family2">
+                    <li class="nav-item"> <a href="#">Home</a></li>
+                    <li class="nav-item"> <a href="#theory">Theory</a></li>
+                    <li class="nav-item"> <a href="#practical">Practical</a></li>
+                    <li class="nav-item"> <a href="#">Viva</a></li>
+                    <li class="nav-item"> <a href="#">JavaScript</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <section id="hero">
         <div class="container d-flex justify-content-center align-items-center flex-column">
                 <div class="hero-box">
@@ -27,7 +43,7 @@
                     <h6 class="guide-name text-uppercase text-center family2 fw-bold text-light">mohammed zaid khan</h6>
                 </div>
                 <div class="hero-btn">
-                    <button class="btn btn-primary mt-5 p-2 px-3 contact-btn family1">CONTACT US</button>
+                    <a href="tel:+919172610965"><button class="btn btn-primary mt-5 p-2 px-3 contact-btn family1">CONTACT US</button> </a>
                 </div>
         </div>
     </section>
@@ -111,7 +127,7 @@
                     <tr>
                         <td class="fs-5 family2">02</td>
                         <td class="fs-6 family2">Develop JavaScript to use decision making and looping statements </td>
-                        <td class="fs-6 family2"><a href="docs/CSS Exp1 Theory.pdf"> CSS Exp2 Theory </a></td>
+                        <td class="fs-6 family2"><a href="docs/CSS Exp2 Theory.pdf"> CSS Exp2 Theory </a></td>
                     </tr>
                     <tr>
                         <td class="fs-5 family2">03</td>
@@ -182,6 +198,102 @@
                         <td class="fs-5 family2">16</td>
                         <td class="fs-6 family2">Develop a web page for implementing slideshow, banner.   </td>
                         <td class="fs-6 family2"><a href="notAdded.html"> CSS Exp16 Theory </a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="practical" class="mt-5 border-top">
+        <div class="container">
+            <div class="theory-list mt-5">
+                <table class="theory-table" border="2">
+                    <tr>
+                        <th class="fs-1 text-uppercase family1 fw-bold text-center" colspan="3"> practical output document list</th>
+                    </tr>
+                    <tr>
+                        <th class="fs-5 family2 colhead">Practical No.</th>
+                        <th class="fs-5 family2 colhead">Practical Name</th>
+                        <th class="fs-5 family2 colhead">Output Document Link</th>
+                    </tr>
+                    <tr>
+                        <td class="fs-5 family2">01</td>
+                        <td class="fs-6 family2">Write simple JavaScript with HTML for arithmetic expression evaluation and message printing. </td>
+                        <td class="fs-6 family2"><a href="docs/CSS Prac1.pdf"> CSS Prac1 </a></td>
+                    </tr>
+                    <tr>
+                        <td class="fs-5 family2">02</td>
+                        <td class="fs-6 family2">Develop JavaScript to use decision making and looping statements </td>
+                        <td class="fs-6 family2"><a href="docs/CSS Prac2.pdf"> CSS Prac2 </a></td>
+                    </tr>
+                    <tr>
+                        <td class="fs-5 family2">03</td>
+                        <td class="fs-6 family2">Develop JavaScript to implements Array functionalities  </td>
+                        <td class="fs-6 family2"><a href="notAdded.html"> CSS Prac3 </a></td>
+                    </tr>
+                    <tr>
+                        <td class="fs-5 family2">04</td>
+                        <td class="fs-6 family2">Develop javascript to implement functions </td>
+                        <td class="fs-6 family2"><a href="notAdded.html"> CSS Prac4 </a></td>
+                    </tr>
+                    <tr>
+                        <td class="fs-5 family2">05</td>
+                        <td class="fs-6 family2">Develop javascript to implement Strings.  </td>
+                        <td class="fs-6 family2"><a href="notAdded.html"> CSS Prac5 </a></td>
+                    </tr>
+                    <tr>
+                        <td class="fs-5 family2">06</td>
+                        <td class="fs-6 family2">Create web page using Form Elements  </td>
+                        <td class="fs-6 family2"><a href="notAdded.html"> CSS Prac6 </a></td>
+                    </tr>
+                    <tr>
+                        <td class="fs-5 family2">07</td>
+                        <td class="fs-6 family2">Create web page to implement  Form Events .Part I  </td>
+                        <td class="fs-6 family2"><a href="notAdded.html"> CSS Prac7 </a></td>
+                    </tr>
+                    <tr>
+                        <td class="fs-5 family2">08</td>
+                        <td class="fs-6 family2">Create web page to implement  Form Events .Part II  </td>
+                        <td class="fs-6 family2"><a href="notAdded.html"> CSS Prac8 </a></td>
+                    </tr>
+                    <tr>
+                        <td class="fs-5 family2">09</td>
+                        <td class="fs-6 family2">Develop a webpage using intrinsic  java functions   </td>
+                        <td class="fs-6 family2"><a href="notAdded.html"> CSS Prac9 </a></td>
+                    </tr>
+                    <tr>
+                        <td class="fs-5 family2">10</td>
+                        <td class="fs-6 family2">Develop a webpage for creating session and persistent cookies. Observe the effects with browser cookies settings.   </td>
+                        <td class="fs-6 family2"><a href="notAdded.html"> CSS Prac10 </a></td>
+                    </tr>
+                    <tr>
+                        <td class="fs-5 family2">11</td>
+                        <td class="fs-6 family2">Develop a webpage for placing the window on the screen and working with child window.</td>
+                        <td class="fs-6 family2"><a href="notAdded.html"> CSS Prac11 </a></td>
+                    </tr>
+                    <tr>
+                        <td class="fs-5 family2">12</td>
+                        <td class="fs-6 family2">Develop a web page for validation of form fields using regular expressions. </td>
+                        <td class="fs-6 family2"><a href="notAdded.html"> CSS Prac12 </a></td>
+                    </tr>
+                    <tr>
+                        <td class="fs-5 family2">13</td>
+                        <td class="fs-6 family2">Create web page with Rollovers effect</td>
+                        <td class="fs-6 family2"><a href="notAdded.html"> CSS Prac13 </a></td>
+                    </tr>
+                    <tr>
+                        <td class="fs-5 family2">14</td>
+                        <td class="fs-6 family2">Develop a webpage for implementing Menus. </td>
+                        <td class="fs-6 family2"><a href="notAdded.html"> CSS Prac14 </a></td>
+                    </tr>
+                    <tr>
+                        <td class="fs-5 family2">15</td>
+                        <td class="fs-6 family2">Develop a webpage for implementing Status bars and web page protection.  </td>
+                        <td class="fs-6 family2"><a href="notAdded.html"> CSS Prac15 </a></td>
+                    </tr>
+                    <tr>
+                        <td class="fs-5 family2">16</td>
+                        <td class="fs-6 family2">Develop a web page for implementing slideshow, banner.   </td>
+                        <td class="fs-6 family2"><a href="notAdded.html"> CSS Prac16 </a></td>
                     </tr>
                 </table>
             </div>
