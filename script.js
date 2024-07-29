@@ -10,4 +10,9 @@ window.addEventListener('scroll', ()=> {
     else{
         header.style.position = '';
     }
-})
+});
+function display(button){
+    let parent = button.parentElement;
+    let vivaForm = parent.nextElementSibling;
+    vivaForm.classList.toggle('d-none');
+}

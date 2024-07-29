@@ -10,9 +10,6 @@
     --primary:#3824CD;
     --primary-hover:#2e1dac;
 }
-body{
-    scrollbar-width: 0px;
-}
 .family1{
     font-family: var(--family1);
 }
@@ -20,7 +17,6 @@ body{
     font-family: var(--family2);
 }
 header{
-   
     width:100%;
     background-color: black;
     height:10vh;
@@ -147,20 +143,34 @@ a:hover{
     text-decoration: underline;
     color:var(--primary-hover);
 }
+
 /* MEDIA QUERY */
 @media only screen and (max-width:780px)
 {
-    header, #hero,#rational{
-        width:760px;
-    }
-    #rational{
-        width:1000px !important;
+    header, #hero{
+        width:768px;
     }
     .rationale-container{
         flex-direction: column;
-        width:768px;
+        width:100%;
     }
     .rationale-text{
-        width:768px !important;
+        .para{
+            font-size: var(--font2);
+            letter-spacing: 1px;
+            line-height: 40px;
+            width:768px;
+        }
+    }
+    html{
+        width:768px;
+    }
+    .service-row{
+        margin-left:5%;
+        text-align: center;
+    }
+    .service-head, .subtitle{
+        text-align: center;
+        margin-left:-60px;
     }
 }
