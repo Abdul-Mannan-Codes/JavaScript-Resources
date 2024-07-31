@@ -22,7 +22,7 @@
                     <li class="nav-item"> <a href="#">Home</a></li>
                     <li class="nav-item"> <a href="#theory">Theory</a></li>
                     <li class="nav-item"> <a href="#practical">Practical</a></li>
-                    <li class="nav-item"> <a href="#">Viva</a></li>
+                    <li class="nav-item"> <a href="#viva">Viva</a></li>
                     <li class="nav-item"> <a href="#">JavaScript</a></li>
                 </ul>
             </nav>
@@ -303,21 +303,48 @@
         <div class="container viva-container">
             <div class="viva-questions p-4">
                 <div class="viva-prac">
-                    <button class="family1" onclick="display(this);">Practical 1 Quiz</button>
+                    <button class="family1 viva-btn btn fw-bold" onclick="display(this);">Practical 1 Quiz</button>
                 </div>
-                <div class="viva-form d-none">1</div>
-            </div>
-            <div class="viva-questions p-4">
-                <div class="viva-prac">
-                    <button class="family1" onclick="display(this);">Practical 1 Quiz</button>
+                <div class="viva-form d-none">
+                    <form action="" class="form form-control mt-3">
+                        <div class="question">
+                            <h6 class="family2 fw-normal">1. var variable can be redeclared in the same scope? </h6>
+                            <input type="radio" name="p1q1" id="p1q1-true">
+                            <label for="p1q1-true">true</label>
+                            <input type="radio" name="p1q1" id="p1q1-false">
+                            <label for="p1q1-false">false</label>
+                        </div>
+                        <div class="question mt-3">
+                            <h6 class="family2 fw-normal">2. let is a ______ scope variable </h6>
+                            <input type="radio" name="p1q2" id="p1q2-block">
+                            <label for="p1q2-block">block</label>
+                            <input type="radio" name="p1q2" id="p1q2-global">
+                            <label for="p1q2-global">global</label>
+                        </div>
+                        <div class="question mt-3">
+                            <h6 class="family2 fw-normal">3. Guess the output :  </h6>
+                            <span>
+                                <code>
+                                    let a = 10; <br>
+                                    { <br>
+                                        a=11; <br>
+                                        console.log(a); <br>
+                                    } <br>
+                                    console.log(a); <br>
+                                </code>
+                            </span>
+                            <input type="radio" name="p1q3" id="p1q3-c1">
+                            <label for="p1q3-c1">Error</label>
+                            <input type="radio" name="p1q3" id="p1q3-c2">
+                            <label for="p1q3-c2">10,11</label>
+                            <input type="radio" name="p1q3" id="p1q3-c3">
+                            <label for="p1q3-c3">11,10</label>
+                            <input type="radio" name="p1q3" id="p1q3-c4">
+                            <label for="p1q3-c4">11,11</label>
+                        </div>
+                        
+                    </form>
                 </div>
-                <div class="viva-form d-none">2</div>
-            </div>
-            <div class="viva-questions p-4">
-                <div class="viva-prac">
-                    <button class="family1" onclick="display(this);">Practical 1 Quiz</button>
-                </div>
-                <div class="viva-form d-none">3</div>
             </div>
         </div>
     </section>
